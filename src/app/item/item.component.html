@@ -1,0 +1,7 @@
+<li class="item">
+  <strong>{{ item.name }}</strong> - <em>{{ item.qty }}</em> -
+  <input type="text" #iPrice (input)="updatePrice(iPrice.value)" /> -
+  <button (click)="updateBasket()">
+    {{ item.basket ? 'Remover' : 'Adicionar' }}
+  </button>
+</li>

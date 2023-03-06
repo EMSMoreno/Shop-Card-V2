@@ -1,0 +1,7 @@
+.total {
+  border: 2px dashed green;
+  padding: .5rem;
+}
+.total h2 {
+  margin: 0;
+}
